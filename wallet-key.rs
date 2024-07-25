@@ -13,6 +13,7 @@ mod tests {
 
     #[test]
     fn wallet_to_base58() {
+        // this is a  burned wallet key, will never be used to hold assets
         let wallet: Vec<u8> = vec![
             34, 46, 55, 124, 141, 190, 24, 204, 134, 91, 70, 184, 161, 181, 44, 122, 15, 172, 63,
             62, 153, 150, 99, 255, 202, 89, 105, 77, 41, 89, 253, 130, 27, 195, 134, 14, 66, 75,
